@@ -1,0 +1,26 @@
+.navbar__wrapper {
+  width: 100vw;
+  height:72px;
+  background-color:black;
+
+  .navbar {
+    display:flex;
+    width:1200px;
+    margin: 0 auto;
+    height:100%;
+
+  }
+  .navbar__logo img {
+    width:200px;
+    height:72px;
+
+  }
+  .navbar__searchbar input[type="text"]{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    width: 300px;
+    height: 30px;
+  }
+}
