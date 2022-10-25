@@ -1,3 +1,4 @@
 import Navbar from "./Navbar";
+import PokemonItem from "./PokemonItem"
 
-export { Navbar }
+export { Navbar, PokemonItem}

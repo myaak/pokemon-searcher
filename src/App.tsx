@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from './components'
+import { Navbar, PokemonItem } from './components'
 function App() {
   return (
     <div className="App_wrapper">
@@ -8,7 +8,7 @@ function App() {
           <Navbar />
         </header>
         <main>
-
+          <PokemonItem />
         </main>
         <footer>
 
