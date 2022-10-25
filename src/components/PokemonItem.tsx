@@ -2,8 +2,8 @@ import * as React from 'react'
 
 
 const PokemonItem = () => {
-  return(
-  <div className="PokemonItem__wrapper">
+  return (
+    <div className="PokemonItem__wrapper">
       <div className="PokemonItem__item">
         <div className="PokemonItem__image">
           <img src="bulb.png" />
@@ -13,10 +13,13 @@ const PokemonItem = () => {
             BULBASAUR
           </div>
           <div className="PokemonItem__type">
-            <img src="grass.png"/>
+            <span>Type:</span>
+            <img src="grass.png" />
 
           </div>
-          <div className="PokemonItem__description"></div>
+          <div className="PokemonItem__description">
+          Description:
+          </div>
 
         </div>
       </div>

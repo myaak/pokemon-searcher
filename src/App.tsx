@@ -8,7 +8,19 @@ function App() {
           <Navbar />
         </header>
         <main>
+          <div className="list">
           <PokemonItem />
+          <PokemonItem />
+          <PokemonItem />
+          <PokemonItem />
+          <PokemonItem />
+          <PokemonItem />
+          <PokemonItem />
+          <PokemonItem />
+          <PokemonItem />
+          <PokemonItem />
+          <PokemonItem />
+          </div>
         </main>
         <footer>
 
