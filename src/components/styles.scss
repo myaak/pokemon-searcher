@@ -119,18 +119,37 @@ main {
     .PokemonItem__type {
       display:flex;
       align-items:center;
-      gap:15px;
+      gap:8px;
       font-size:18px;
       text-transform:uppercase;
     }
     .PokemonItem__type img {
-      width:35px;
-      height:35px;
+      width:30px;
+      height:30px;
     }
     .PokemonItem__description {
       text-transform:uppercase;
       font-size: 14px;
     }
+    .PokemonItem__description span {
+      margin-right:5px;
+    }
+  }
+}
+
+.PokemonType__wrapper {
+  position:relative;
+  display:flex;
+  justify-content:center;
+
+  .PokemonType__desc {
+    display:none;
+    position:absolute;
+    font-size:12px;
+    top:-50%;
+  }
+  .PokemonType__img:hover + .PokemonType__desc {
+    display:block;
   }
 }
 

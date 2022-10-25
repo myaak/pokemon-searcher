@@ -1,5 +1,7 @@
-import React from 'react'
-import { Navbar, PokemonItem } from './components'
+
+import { Navbar, PokemonItem, PokemonType} from './components'
+
+import './components/styles.scss'
 function App() {
   return (
     <div className="App_wrapper">

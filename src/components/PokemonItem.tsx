@@ -1,5 +1,7 @@
-import * as React from 'react'
+import {PokemonType} from './'
 
+
+const prop={title: 'Grass', source: 'grass.png'}
 
 const PokemonItem = () => {
   return (
@@ -14,11 +16,16 @@ const PokemonItem = () => {
           </div>
           <div className="PokemonItem__type">
             <span>Type:</span>
-            <img src="grass.png" />
-
+            <PokemonType 
+              source={prop.source}
+              />
+            <PokemonType 
+              source={'fire.png'}
+              />
           </div>
           <div className="PokemonItem__description">
-          Description:
+            <span>Description:</span>
+            asds sad iasij
           </div>
 
         </div>
