@@ -1,0 +1,63 @@
+{
+  "Pokemon": [
+    {
+      "id":0,
+      "title":"Bulbasaur",
+      "image":"bulb.png",
+      "Description": "Cool guy"
+    },
+    {
+      "id":1,
+      "title":"Mankey",
+      "image": "mankey.png",
+      "Description": "Cool guy"
+    },
+    {
+      "id":2,
+      "title":"Tentacool",
+      "image": "tentacool.png",
+      "Description": "Cool guy"
+    },
+    {
+      "id":3,
+      "title":"Charmander",
+      "image": "charmander.png",
+      "Description": "Fire pokemon xd"
+    },
+    {
+      "id":3,
+      "title":"Charmander",
+      "image": "charmander.png",
+      "Description": "Fire pokemon xd"
+    }
+  ],
+  "Types":["fire","grass","ground","water","normal",
+    "ice","dark","poison","rock","flying","steel","fighting","fairy",
+  "electric", "dragon"],
+  "PokemonTypes": [
+   {
+     "PokemonID": 0,
+     "PokemonType":1
+   },
+   {
+     "PokemonID": 0,
+     "PokemonType":7
+   },
+    {
+      "PokemonID": 1,
+      "PokemonType":0
+    },
+    {
+      "PokemonID": 2,
+      "PokemonType":3
+    },
+    {
+      "PokemonID": 2,
+      "PokemonType":4
+    },
+    {
+      "PokemonID": 3,
+      "PokemonType": 0
+    }
+  ]
+}

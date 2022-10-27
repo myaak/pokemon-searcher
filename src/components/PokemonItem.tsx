@@ -1,31 +1,36 @@
-import {PokemonType} from './'
+import { PokemonType, PokemonBigItem } from './'
 
+interface Props {
+  title: string,
+  children?: React.ReactNode,
+  description?: string,
+  imageSource?: string
+  activateItem:() => void
+}
 
-const prop={title: 'Grass', source: 'grass.png'}
+const PokemonItem = ({ title, children, description, imageSource, activateItem }: Props) => {
 
-const PokemonItem = () => {
+  const handleClick = () => {
+    activateItem()
+  }
+
   return (
-    <div className="PokemonItem__wrapper">
+    <div className="PokemonItem__wrapper" onClick={handleClick}>
       <div className="PokemonItem__item">
         <div className="PokemonItem__image">
-          <img src="bulb.png" />
+          <img src={imageSource} />
         </div>
         <div className="PokemonItem__content">
           <div className="PokemonItem__title">
-            BULBASAUR
+            {title}
           </div>
           <div className="PokemonItem__type">
             <span>Type:</span>
-            <PokemonType 
-              source={prop.source}
-              />
-            <PokemonType 
-              source={'fire.png'}
-              />
+            {children}
           </div>
           <div className="PokemonItem__description">
             <span>Description:</span>
-            asds sad iasij
+            {description}
           </div>
 
         </div>
