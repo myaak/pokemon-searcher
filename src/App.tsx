@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { Navbar, PokemonBigItem, PokemonList } from './components'
+import { Navbar, PokemonBigItem, PokemonList, Footer } from './components'
 import './components/styles.scss'
 
 function App() {
@@ -31,8 +31,9 @@ function App() {
 
   return (
     <div className="App_wrapper">
-      {bigItemActive &&
-        <PokemonBigItem />
+      {
+        /*bigItemActive &&
+          <PokemonBigItem /> */
       }
       <div className="App">
         <header>
@@ -51,7 +52,7 @@ function App() {
           </div>
         </main>
         <footer>
-
+          <Footer />
         </footer>
       </div>
     </div>
