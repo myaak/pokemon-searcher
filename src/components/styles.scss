@@ -245,6 +245,16 @@ body {
     align-items:center;
     text-transform:uppercase;
   }
+  &_left__content {
+    @media screen and (max-width:480px) {
+      display:none;
+    }
+  }
+  &_right__content {
+    @media screen and (max-width:480px) {
+      display:none;
+    }
+  }
 }
 
 
