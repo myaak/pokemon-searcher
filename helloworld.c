@@ -1,2 +1,0 @@
-iwjewijewiejwii
-privet
