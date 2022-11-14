@@ -102,6 +102,10 @@ body {
     width:1600px;
     margin:0 auto;
 
+    @media screen and (max-width:1600px) {
+      width:100%;
+    }
+
   }
   .pokemon-list__container {
     width:100%;
